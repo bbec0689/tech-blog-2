@@ -1,0 +1,161 @@
+html {
+    background-color: rgb(108, 250, 179);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 5px;
+}
+
+header, footer {
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(143, 5, 5, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.btn {
+    border: 0;
+    background-color: rgb(81, 102, 218);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 6px;
+}
+
+header .btn {
+    margin-top: 0;
+}
+
+h1 {
+    margin: 5px 0;
+}
+
+main {
+    width: 100%;
+}
+
+.article-list {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    flex-wrap: wrap;
+}
+
+.article-list a {
+    max-width: 100%;
+    width: 590px;
+    text-decoration: none;
+    display: block;
+    margin: 4px;
+    min-height: 196px;
+}
+
+.article-list article {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px 0;
+    color: white;
+    height: 196px;
+}
+
+.article-banner, .comment-wrapper {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px 0;
+    color: white;
+    width: 100%;
+}
+
+.article-body {
+    width: 100%;
+    border-left: 1px solid black;
+    border-right: 1px solid white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+h2, .article-banner h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.error-message {
+    color: red;
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.comment-form {
+    margin-bottom: 15px;
+}
+
+textarea {
+    display: block;
+    height: 350px;
+    width: 70%;
+    min-width: 320px;
+    box-sizing: border-box;
+}
+
+input {
+    width: 70%;
+    min-width: 320px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.comment {
+    border: 1px white solid;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.comment h4, .comment p {
+    margin: 5px;
+}
+
+.create {
+    text-align: center;
+    height: 45px;
+    padding: 20px;
+}
+
+.comment-text {
+    height: 150px;
+}
+
+#new-post {
+    margin-top: 15px;
+}
+
+#delete {
+    background-color: red;
+}
