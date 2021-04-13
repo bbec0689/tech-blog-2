@@ -1,6 +1,5 @@
 # tech-blog
 
-## This README.md was created using the described application below 
 
 ## Description
 a blog set up for someone to create an account and be able to write posts
